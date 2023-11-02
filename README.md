@@ -1,5 +1,5 @@
 ```
-NAME : SANJAY.G
+NAME : Sanjay.G
 REGISTER NO : 212222230131
 ```
 # Exp-6-SYNCHORNOUS-COUNTERS - UP COUNTER AND DOWN COUNTER 
@@ -70,8 +70,8 @@ This type of counter is normally referred to as a Down Counter, (CTD). In a bina
 ```
 /*
 Program for flipflops  and verify its truth table in quartus using Verilog programming.
-Developed by: SANJAY.G
-RegisterNumber: 212222230131
+Developed by: S.JAIGANESH
+RegisterNumber: 212222240037
 */
 ```
 #### UP COUNTER:
@@ -98,28 +98,30 @@ begin
 	A[3]=(((~A[0])&(~A[1])&(~A[2]))^A[3]);
 	A[2]=(((~A[0])&(~A[1]))^A[2]);
 	A[1]=(~A[0])^A[1];
-	A[0]=(~A[0])^1;
+	A[0]=1^A[0];
 end
 endmodule
 ```
 
 ### RTL LOGIC UP COUNTER AND DOWN COUNTER  
 #### UP COUNTER:
-![image](https://github.com/ATHMAJ03/Exp-7-Synchornous-counters-/assets/118753139/87e978f7-3a69-429d-b103-97759ddcfaa3)
+![image](https://github.com/Jaiganesh235/Exp-6-Synchornous-counters-/assets/118657189/21a764f7-7623-4773-9c1a-5596fa793a0c)
+
 
 
 #### DOWN COUNTER:
-![image](https://github.com/ATHMAJ03/Exp-7-Synchornous-counters-/assets/118753139/83caeda7-7ecf-4445-a2a4-4e7a1ff31b7a)
+![image](https://github.com/Jaiganesh235/Exp-6-Synchornous-counters-/assets/118657189/c50e6119-92fa-4325-8d4f-48bda2c535c5)
 
 
 
-### TIMING DIGRAMS FOR COUNTER  
+### TIMING DIAGRAMS FOR COUNTER  
 #### UP COUNTER
-![image](https://github.com/ATHMAJ03/Exp-7-Synchornous-counters-/assets/118753139/cf617a88-0d0c-4486-b5b7-85afb6e4eed8)
+![image](https://github.com/Jaiganesh235/Exp-6-Synchornous-counters-/assets/118657189/32c085a6-28b6-471b-a0f6-f4eaf69998ee)
 
 
 #### DOWN COUNTER
-![image](https://github.com/ATHMAJ03/Exp-7-Synchornous-counters-/assets/118753139/cd9c174e-2ad3-4a5e-8b21-a7218f621308)
+![image](https://github.com/Jaiganesh235/Exp-6-Synchornous-counters-/assets/118657189/715ea572-9659-4786-a87d-e490376a0ffd)
+
 
 
 ### TRUTH TABLE 
